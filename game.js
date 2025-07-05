@@ -218,7 +218,7 @@ function render() {
     ctx.fillStyle = '#ffffff';
     ctx.font = Math.floor(canvas.width * 0.025) + 'px Arial';
     ctx.textAlign = 'center';
-    ctx.fillText('M', metro.x + metro.width/2, metro.y + metro.height/2 + 7);
+    ctx.fillText('Mетро', metro.x + metro.width/2, metro.y + metro.height/2 + 7);
     
     // Draw bench (yellow)
     ctx.fillStyle = '#ffd700';
@@ -310,12 +310,12 @@ function drawUI() {
     ctx.textAlign = 'left';
     
     if (gameState.isSitting) {
-        ctx.fillText('🚬 Relaxing by the river...', 20, 40);
+        ctx.fillText('🚬 Брат чилит у реки...', 20, 40);
         if (gameState.musicPlaying) {
-            ctx.fillText('🎵 Music playing', 20, 70);
+            ctx.fillText('🎵 Лейзи саунд', 20, 70);
         }
     } else {
-        ctx.fillText('Walk to the bench by the river', 20, 40);
+        ctx.fillText('Пройди от метро до набки', 20, 40);
     }
 }
 
