@@ -9,7 +9,8 @@
 <body>
     <div class="game-container">
         <h1>Metro to Embankment</h1>
-        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        <div class="moon"></div>
+        <canvas id="gameCanvas"></canvas>
         <div class="controls">
             <p>Controls: Use WASD keys or click to move</p>
             <p>Goal: Walk from the metro to the bench by the river</p>
@@ -19,9 +20,7 @@
             <button id="muteBtn">Mute/Unmute</button>
         </div>
     </div>
-    <audio id="gameMusic" loop>
-        <source src="data:audio/wav;base64,UklGRnoGAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQoGAACBhYqFbF1fdJivrJBhNjVgodDbq2EcBj+a2/LDciUFLIHO8tiJNwgZaLvt559NEAxQp+PwtmMcBjiR1/LMeSwFJHfH8N2QQAoUXrTp66hVFApGn+DyvmwqAjKb5OXJdjAEHYHO8tiJNwgZaLvt559NEAxQp+PwtmMcBjiR1/LMeSwFJHfH8N2QQAoUXrTp66hVFApGn+DyvmwqAjKb5OXJdjAEHYHO8tiJNwgZaLvt559NEAxQp+PwtmMcBjiR1/LMeSwFJHfH8N2QQAoUXrTp66hVFApGn+DyvmwqAjKb5OXJdjAEHYHO8tiJNwgZaLvt559NEAxQp+PwtmMcBjiR1/LMeSwFJHfH8N2QQAoUXrTp66hVFApGn+DyvmwqAjKb5OXJdjAEHYHO8tiJNwgZaLvt559NEAxQp+PwtmMcBjiR1/LMeSwFJHfH8N2QQAoUXrTp66hVFApGn+DyvmwqAjKb5OXJdjAEHYHO8tiJNwgZaLvt559NEAxQp+PwtmMcBjiR1/LMeSwFJHfH8N2QQAoUXrTp66hVFApGn+DyvmwqAjKb5OXJdjAEHYHO8tiJNwgZaLvt559NEAxQp+PwtmMcBjiR1/LMeSwFJHfH8N2QQAoUXrTp66hVFApGn+DyvmwqAjKb5OXJdjAEHYHO8tiJNwgZaLvt559NEAxQp+PwtmMcBjiR1/LMeSwFJHfH8N2QQAoUXrTp66hVFApGn+DyvmwqAjKb5OXJdjAEHYHO8tiJNwgZaLvt559NEAxQp+PwtmMcBjiR1/LMeSwFJHfH8N2QQAoUXrTp66hVFApGn+DyvmwqAjKb5OXJdjAEHYHO8tiJNwgZaLvt559NEAxQp+PwtmMcBjiR1/LMeSwFJHfH8N2QQAoUXrTp66hVFApGn+DyvmwqAjKb5OXJdjAE=" type="audio/wav">
-    </audio>
+    <iframe id="gameMusic" width="0" height="0" src="https://www.youtube.com/embed/7vBqQIxmGOA?enablejsapi=1&autoplay=0&loop=1&controls=0" frameborder="0" allow="autoplay; encrypted-media"></iframe>
     <script src="game.js"></script>
 </body>
 </html>

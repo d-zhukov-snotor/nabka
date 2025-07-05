@@ -1,24 +1,32 @@
-# Metro to Embankment Game
+# Metro to Embankment Game 🌙
 
-A simple pixelated web game where you walk from the metro station to a bench by the river.
+A peaceful pixelated web game where you walk from the metro station to a bench by the river under a starry night sky.
 
-## How to Play
+## ✨ New Features
 
-1. **Starting**: Your character begins at the metro station (green area with "M")
+- **Full Screen Experience**: Immersive gameplay that fills your entire screen
+- **Night Theme**: Beautiful starry night sky with animated twinkling stars
+- **Glowing Moon**: Animated moon with a gentle glow effect
+- **Atmospheric Music**: Relaxing background music from YouTube when you reach the bench
+- **Responsive Design**: Automatically adapts to any screen size
+
+## 🎮 How to Play
+
+1. **Starting**: Your character begins at the metro station (dark green area with "M")
 2. **Movement**: 
    - Use WASD keys to move around
-   - Or click anywhere in the walkable (green) areas
-3. **Goal**: Navigate to the yellow bench by the blue river
-4. **Ending**: When you reach the bench, your character sits down, starts smoking, and relaxing music begins
+   - Or click anywhere in the walkable (gray) areas
+3. **Goal**: Navigate to the yellow bench by the dark blue river
+4. **Ending**: When you reach the bench, your character sits down, starts smoking, and peaceful music begins
 
-## Controls
+## 🎹 Controls
 
 - **WASD** or **Arrow Keys**: Move character
 - **Mouse Click**: Click to move to a location
 - **Reset Button**: Restart the game
 - **Mute Button**: Toggle game music on/off
 
-## Running the Game
+## 🚀 Running the Game
 
 1. Open `index.html` in your web browser
 2. Or run a local server:
@@ -27,13 +35,20 @@ A simple pixelated web game where you walk from the metro station to a bench by 
    ```
    Then visit `http://localhost:8000`
 
-## Game Features
+## 🌟 Game Features
 
-- Pixelated graphics with retro aesthetic
-- Top-down view of the map
-- Collision detection for walkable areas
-- Smoking animation with particle effects
-- Background music when relaxing
-- Mobile-responsive design
+- **Full Screen Mode**: Immersive gameplay experience
+- **Night Atmosphere**: Dark theme with animated stars and moon
+- **Pixelated Graphics**: Retro aesthetic with crisp pixel art
+- **Top-down View**: Classic perspective of the map
+- **Collision Detection**: Realistic movement boundaries
+- **Smoking Animation**: Realistic particle effects with responsive sizing
+- **YouTube Integration**: High-quality background music
+- **Responsive Design**: Works on all screen sizes
+- **Smooth Animations**: Fluid character movement and effects
 
-Enjoy your peaceful walk from the metro to the embankment!
+## 🎵 Music
+
+The game features relaxing background music that plays when you reach the bench, creating a peaceful atmosphere for your virtual relaxation moment.
+
+Enjoy your peaceful nighttime walk from the metro to the embankment under the stars! 🌃⭐
